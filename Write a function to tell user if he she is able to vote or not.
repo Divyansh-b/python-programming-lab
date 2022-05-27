@@ -1,0 +1,10 @@
+def vote(age):
+    if age >= 18:
+        print('You can vote')
+    
+    else:
+        print("You can't vote")
+
+if __name__ == "__main__":
+    x = int(input("Enter the age: "))
+    vote(x)
