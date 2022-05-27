@@ -1,0 +1,13 @@
+def prime(num):
+    out = "prime"
+
+    for i in range(2, num//2 + 1):
+        if num % i == 0:
+            out = "Not prime"
+            break
+    
+    return out
+
+if __name__ == "__main__":
+    n = int(input('Enter the number: '))
+    print(prime(n))
